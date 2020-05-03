@@ -1,4 +1,4 @@
-package com.baoge.domain;
+package com.baoge.boot.domain;
 
 import lombok.Data;
 
