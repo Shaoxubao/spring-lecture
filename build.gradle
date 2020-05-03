@@ -33,7 +33,9 @@ repositories {
 
 dependencies {
     compile (
-            "org.springframework.boot:spring-boot-starter-web"
+            "org.springframework.boot:spring-boot-starter-web",
+            // 引入此Jar研究SpringBoot打包机制
+            "org.springframework.boot:spring-boot-loader"
     )
     annotationProcessor 'org.projectlombok:lombok:1.18.8'
     compileOnly 'org.projectlombok:lombok:1.18.8'
